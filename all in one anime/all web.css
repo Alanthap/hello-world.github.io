@@ -1,0 +1,126 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* ************************************  navbar ********************************************** */
+        .body {
+            font-family: 'Rowdies', cursive;
+
+        }
+
+        nav {
+            width: 100% !important;
+        }
+
+        .nav-page {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-self: auto;
+            margin-top: 25vh;
+        }
+
+        hr {
+            color: aqua;
+        }
+
+        .show {
+            text-shadow: .2px 0.2px black;
+        }
+
+        /* ************************************  end of vavbar ********************************************** */
+        /* ************************************ globle********************************************** */
+        .height1 {
+            height: 100vh;
+            width: 100%;
+
+        }
+
+        ul a :hover {
+            color: skyblue;
+        }
+
+        /* ************************************  slikks ********************************************** */
+        .one-tile {
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            /*it is just for soure another color add beside boostrapok */
+        }
+
+        .one-about {
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        .one-projects {
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        .two-tile {
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        /* ************************************  end of skills ********************************************** */
+        /* ************************************ about cards hover affercts  ********************************************** */
+
+        /* ************************************ about cards hover affercts  ********************************************** */
+        /* <!-- ****************************************** cards ****************************************** --> */
+
+        .header-extradiv {
+            width: 100%;
+            height: auto;
+            margin: 100px 0;
+
+        }
+
+        .extra-div {
+            background: black;
+            border: medium none;
+            padding: 50px !important;
+            border-radius: 5px;
+            transition: 0.2s;
+
+        }
+
+        .extra-div:hover {
+            box-shadow: 0 0 20px skyblue;
+            transform: translateY(-5px);
+        }
+
+        /* <!-- ****************************************** cards ****************************************** --> */
+        table {
+            width: 100%;
+        }
+
+        .header {
+            background: rgb(122, 116, 116);
+            color: #fff;
+        }
+
+        th {
+            padding: 10px 0px;
+        }
+
+        td {
+            padding: 10px 0px;
+        }
+
+        tr {
+            background: rgb(226, 222, 222);
+        }
+
+        tr:hover {
+            background: #000;
+            color: #fff;
+        }
